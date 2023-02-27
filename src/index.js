@@ -42,6 +42,7 @@ const store = configureStore({
 })
 // configureStore を使用、middleware や devTools の設定済み
 
+// actionを送信するときに、メソッド呼び出しするような実装にできるので、VScodeでは参照もできてとても良い。
 const App = () => {
   return (
     <div>
